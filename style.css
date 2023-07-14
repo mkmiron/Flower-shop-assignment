@@ -7,16 +7,29 @@
 
 .submit_button{
     background-color: #E55473;
-    width: 145px;
-    padding: 18px 0px;
+    height: 40px;
+    width: 120px;
+    padding: 12px 0px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
-.headline{
+.subscribe_button{
+    background-color: #E55473;
+    height: 50px;
+    width: 120px;
+    padding: 12px 0px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+.mainline{
     font-family: 'Lato', sans-serif;
     font-weight: 1000;
     color: #272727;
@@ -56,8 +69,8 @@
 }
 
 .top_header h1{
-    font-size: 60px;
-    margin-bottom: 32px;
+    font-size: 40px;
+    margin-bottom: 24px;
 }
 
 .top_header p{
@@ -113,7 +126,7 @@
     margin-left: 5px;
 }
 
-.figcaption{
+.featured_flowers figcaption{
     margin-top: 32px;
     text-align: center;
     text-decoration: underline;
@@ -151,13 +164,13 @@
     width: 75%;
 }
 
-.instagram-cards{
+.instagram_cards{
     display: flex;
     justify-content: space-between;
     margin-top: 47px;
 }
 
-.instagram-cards img{
+.instagram_cards img{
     width: 23%;
 }
 
@@ -186,9 +199,9 @@
 input{
     width: 50%;
     padding: 18px 18px;
-    color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     border-radius: 8px;
     margin-top: 48px;
@@ -206,12 +219,12 @@ footer{
     align-items: center;
 }
 
-#footer-headline{
+#footer-mainline{
     font-family: 'Lato', sans-serif;
-    font-weight: 1000;
+    font-weight: 100;
     color: #ffffff;
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 #footer-secondary-text{
@@ -242,7 +255,7 @@ footer{
 }
 ul{
     list-style-type: none;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     text-align: left;
     padding-left: 120px;
